@@ -320,7 +320,29 @@ button:focus {
 	color: #fff;
 }
 
+.banner {
+background-image: url('http://www.midday.coffee/assets/banner.jpg');
+background-size: cover;
+height: 600px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 32px;
+}
 
+.banner > p {
+color: white;
+padding: 10px;
+}
+
+@media (max-width: 576px) {
+.banner {
+  align-items: flex-start;
+  height: 400px;
+}
+}
 /*--------------------*/
 /* FEATURED SLIDER */
 /*--------------------*/
