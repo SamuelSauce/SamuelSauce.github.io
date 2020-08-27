@@ -328,7 +328,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-bottom: 10px;
-height: 500px;
+height: 300px;
 }
 
 .banner > p {
@@ -338,7 +338,7 @@ padding: 10px;
 
   @media (max-width: 576px) {
     .banner {
-      height: 100px;
+      height: 300px;
     }
   }
 /*--------------------*/
