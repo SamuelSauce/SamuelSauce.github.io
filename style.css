@@ -340,7 +340,7 @@ padding: 10px;
   @media (max-width: 576px) {
     .banner {
       align-items: flex-start;
-      height: 400px;
+      height: 200px;
     }
   }
 /*--------------------*/
