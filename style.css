@@ -322,6 +322,7 @@ button:focus {
 
 .banner {
 background-image: url(assets/images/logo.JPG);
+width: 100%;
 background-color: #401d35;
 display: flex;
 flex-direction: column;
