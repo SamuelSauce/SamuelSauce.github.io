@@ -334,6 +334,13 @@ margin-bottom: 32px;
 color: white;
 padding: 50px;
 }
+
+  @media (max-width: 576px) {
+    .banner {
+      align-items: flex-start;
+      height: 50px;
+    }
+  }
 /*--------------------*/
 /* FEATURED SLIDER */
 /*--------------------*/
