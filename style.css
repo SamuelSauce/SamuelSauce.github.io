@@ -323,7 +323,6 @@ button:focus {
 .banner {
 background-image: url('http://www.midday.coffee/assets/banner.jpg');
 background-size:100% auto;
-height: 300px;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -334,15 +333,8 @@ margin-bottom: 32px;
 
 .banner > p {
 color: white;
-padding: 10px;
+padding: 50px;
 }
-
-  @media (max-width: 576px) {
-    .banner {
-      align-items: flex-start;
-      height: 200px;
-    }
-  }
 /*--------------------*/
 /* FEATURED SLIDER */
 /*--------------------*/
